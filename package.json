@@ -1,0 +1,14 @@
+{
+  "name": "playwright-ecommerce-project",
+  "version": "1.0.0",
+  "description": "E-Commerce Automation using Playwright and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
